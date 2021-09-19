@@ -1,0 +1,293 @@
+body {
+  margin: 0;
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 150%;
+  color: #222222;
+}
+
+header {
+  background-color: #0eb4c1;
+}
+
+.header__navbar {
+  padding: 1rem;
+  padding-left: 195px;
+  padding-right: 195px;
+  background-color: #fff;
+}
+
+.header__navbar-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar__item-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__item-brand img {
+  height: 50px;
+  margin-right: 16px;
+}
+
+.navbar__item-brand h1 a {
+  text-decoration: none;
+  color: #222222;
+}
+
+.navbar__item-brand h1 a:hover {
+  color: #DE2E54;
+  transition: 0.3s;
+}
+
+.navbar__item-brand h1 a:active {
+  opacity: 0.6;
+}
+.navbar__item-brand img:active {
+  opacity: 0.6;
+}
+
+.item__menu-inner {
+  display: flex;
+}
+
+.item__menu-inner li {
+  list-style: none;
+}
+
+.item__menu-inner li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 32px;
+  color: #222222;
+}
+
+.item__menu-inner li a:hover {
+  color: #DE2E54;
+  transition: 0.3s;
+}
+
+.item__menu-inner li a:active {
+ opacity: 0.6;
+}
+
+.btn__header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 15px;
+  padding: 12px 24px;
+  background-color: #de2e54;
+  border-radius: 10px;
+}
+
+.btn__header a:hover {
+  color: white;
+  background-color: #de2e54;
+  opacity: 0.8;
+}
+
+.btn__header a:active {
+  opacity: 0.6;
+}
+
+.header__main {
+  max-height: 533px;
+  position: relative;
+  display: flex;
+  padding-left: 65px;
+  padding-right: 170px;
+  padding-top: 120px;
+  padding-bottom: 95px;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+.header__main-text h1 {
+  width: 630px;
+  font-size: 36px;
+  line-height: 120%;
+  color: white;
+}
+
+.header__main-text p {
+  width: 450px;
+  font-size: 18px;
+  line-height: 150%;
+  color: white;
+  padding-bottom: 32px;
+}
+
+.header__main img {
+  top: 2.7rem;
+  right: 14rem;
+  width: 423px;
+  position: absolute;
+}
+
+#main {
+  margin: auto;
+  max-width: 864px;
+  margin-bottom: 120px;
+}
+
+.main__title {
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 56px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 120%;
+}
+
+.main__page {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.main__page img {
+  margin-right: 64px;
+  width: 200px;
+  height: 200px;
+}
+
+.main__page-text h3 {
+  margin-top: 5px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 120%;
+}
+
+.main__page-text p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.main__btn a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 15px;
+  padding: 12px 24px;
+  background-color: #de2e54;
+  border-radius: 10px;
+  margin-left: 40%;
+  margin-top: 60px;
+}
+
+.main__btn a:hover {
+  background-color: white;
+  color: #de2e54;
+  border: 1px solid #de2e54;
+  opacity: 0.8;
+}
+
+.main__btn a:active {
+  opacity: 0.6;
+}
+
+.register {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  max-width: 500px;
+  height: 100%;
+  margin: auto;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+
+}
+
+#register-container {
+  background-color: #0eb4c1;
+}
+
+.register__title {
+  font-style: normal;
+  margin-bottom: 3rem;
+}
+
+.register__btns {
+  display: flex;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.register__btns {
+  width: 600px;
+  margin-top: 2rem;
+  list-style: none;
+}
+
+.register__btn a {
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 1rem;
+  color: white;
+  padding: 10px 12px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.register__btn a:hover {
+  border: 1px solid #de2e54;
+  background-color: #de2e54;
+  color: white;
+  opacity: 0.8;
+}
+
+.register__btn a:active {
+  opacity: 0.6;
+}
+
+.register__btn1 a {
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 2rem;
+  color: white;
+  padding: 10px 12px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+
+.register__btn1 a:hover {
+  border: 1px solid #de2e54;
+  background-color: #de2e54;
+  color: white;
+  opacity: 0.8;
+}
+
+.register__btn1 a:active {
+  opacity: 0.6;
+}
+
+.footer-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__navbar {
+  background-color: black;
+}
+.footer__item-brand h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer__menu-inner li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 32px;
+  color: white;
+}
